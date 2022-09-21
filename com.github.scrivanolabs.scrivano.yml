@@ -28,5 +28,5 @@ modules:
     - install -Dm644 icons/scrivano_512.png /app/share/icons/hicolor/512x512/apps/com.github.scrivanolabs.scrivano.png
     sources:
     - type: archive
-      url: https://github.com/scrivanolabs/ScrivanoForLinux/releases/download/0.13.5/Scrivano_flatpak_files_0.13.5.zip
-      sha256: e9da4d49c7350532170f7e74a16d43aab9ef8de93a155afdb6d892fe5e8a7a16
+      url: https://github.com/scrivanolabs/ScrivanoForLinux/releases/download/0.13.8/Scrivano_flatpak_files_0.13.8.zip
+      sha256: 1e1644baf4ea6e59ee7c9a7474b9488583f4f6e4e306294dc87d792c3b5ffe4f
