@@ -1,6 +1,6 @@
 app-id: com.github.scrivanolabs.scrivano
 runtime: org.kde.Platform
-runtime-version: '5.15-21.08'
+runtime-version: '5.15-22.08'
 sdk: org.kde.Sdk
 command: Scrivano
 finish-args:
@@ -21,12 +21,12 @@ modules:
     - install -D libpdfium.so /app/lib/libpdfium.so
     - install -Dm644 com.github.scrivanolabs.scrivano.appdata.xml -t /app/share/metainfo
     - install -Dm644 com.github.scrivanolabs.scrivano.desktop -t /app/share/applications
-    - install -Dm644 icons/icon.svg /app/share/icons/hicolor/scalable/apps/com.github.scrivanolabs.scrivano.svg
-    - install -Dm644 icons/scrivano_64.png /app/share/icons/hicolor/64x64/apps/com.github.scrivanolabs.scrivano.png
-    - install -Dm644 icons/scrivano_128.png /app/share/icons/hicolor/128x128/apps/com.github.scrivanolabs.scrivano.png
-    - install -Dm644 icons/scrivano_256.png /app/share/icons/hicolor/256x256/apps/com.github.scrivanolabs.scrivano.png
-    - install -Dm644 icons/scrivano_512.png /app/share/icons/hicolor/512x512/apps/com.github.scrivanolabs.scrivano.png
+    - install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/com.github.scrivanolabs.scrivano.svg
+    - install -Dm644 scrivano_64.png /app/share/icons/hicolor/64x64/apps/com.github.scrivanolabs.scrivano.png
+    - install -Dm644 scrivano_128.png /app/share/icons/hicolor/128x128/apps/com.github.scrivanolabs.scrivano.png
+    - install -Dm644 scrivano_256.png /app/share/icons/hicolor/256x256/apps/com.github.scrivanolabs.scrivano.png
+    - install -Dm644 scrivano_512.png /app/share/icons/hicolor/512x512/apps/com.github.scrivanolabs.scrivano.png
     sources:
     - type: archive
-      url: https://github.com/scrivanolabs/ScrivanoForLinux/releases/download/0.13.8/Scrivano_flatpak_files_0.13.8.zip
-      sha256: 1e1644baf4ea6e59ee7c9a7474b9488583f4f6e4e306294dc87d792c3b5ffe4f
+      url: https://github.com/scrivanolabs/ScrivanoFlatpak/releases/download/0.14.6/Scrivano_flatpak_files_0.14.6.zip
+      sha256: c742305e0e2fb4a620cabc659c2aaaaa64e5b8876f4a80e513949062b8f8d2dd
