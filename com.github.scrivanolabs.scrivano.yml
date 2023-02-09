@@ -15,6 +15,7 @@ modules:
   - name: Scrivano
     buildsystem: simple
     build-commands:
+    - ls icons
     - install -D Scrivano /app/bin/Scrivano
     - install -D libskia.so /app/lib/libskia.so
     - install -D libpdfium.so /app/lib/libpdfium.so
