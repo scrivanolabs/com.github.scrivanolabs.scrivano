@@ -15,7 +15,6 @@ modules:
   - name: Scrivano
     buildsystem: simple
     build-commands:
-    - ls icons
     - install -D Scrivano /app/bin/Scrivano
     - install -D libskia.so /app/lib/libskia.so
     - install -D libpdfium.so /app/lib/libpdfium.so
@@ -29,4 +28,4 @@ modules:
     sources:
     - type: archive
       url: https://github.com/scrivanolabs/ScrivanoFlatpak/releases/download/0.16.7/Scrivano_flatpak_files_0.16.7.zip
-      sha256: dd5e5aaa262fa9a31166f6fc33dac5da61d93742eba63b22205904167e3eb14f
+      sha256: a7f9da842ae21d63170c9c90d768d19d9f09006ae9dbd774e9f59c0af897abcb
