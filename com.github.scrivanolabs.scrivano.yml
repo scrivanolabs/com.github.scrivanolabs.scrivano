@@ -28,4 +28,4 @@ modules:
     sources:
     - type: archive
       url: https://github.com/scrivanolabs/ScrivanoFlatpak/releases/download/0.16.9/Scrivano_flatpak_files_0.16.9.zip
-      sha256: 1ee46c1ce8a8c9b1a0cea34b1eb179548f59f700cbc3ae3f3bab5c05c33c8f0d
+      sha256: 0823fa62be5648e3ccc4aaacec316c154dde0dc40f5087c160665db9a74f14e2
