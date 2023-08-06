@@ -1,6 +1,6 @@
 app-id: com.github.scrivanolabs.scrivano
 runtime: org.kde.Platform
-runtime-version: '5.15-22.08'
+runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: Scrivano
 finish-args:
@@ -28,5 +28,5 @@ modules:
     - install -Dm644 scrivano_512.png /app/share/icons/hicolor/512x512/apps/com.github.scrivanolabs.scrivano.png
     sources:
     - type: archive
-      url: https://github.com/scrivanolabs/ScrivanoFlatpak/releases/download/0.14.6/Scrivano_flatpak_files_0.14.6.zip
-      sha256: c742305e0e2fb4a620cabc659c2aaaaa64e5b8876f4a80e513949062b8f8d2dd
+      url: https://github.com/scrivanolabs/ScrivanoFlatpak/releases/download/0.17.6/Scrivano_flatpak_files_0.17.6.zip
+      sha256: C3AC1D9EEF38C168AF05E42822ED57080F550CDDD318558DD59DB03C6F579A47
