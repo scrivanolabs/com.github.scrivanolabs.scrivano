@@ -27,5 +27,5 @@ modules:
     - install -D icons/scrivano_512.png /app/share/icons/hicolor/512x512/apps/com.github.scrivanolabs.scrivano.png
     sources:
     - type: archive
-      url: https://github.com/scrivanolabs/ScrivanoFlatpak/releases/download/0.18.11/Scrivano_flatpak_files_0.18.11.tar.gz
-      sha256: 6870502728482cdf1bfcd4dc5886247903816197cab3fa62606054fb2e8caa18
+      url: https://github.com/scrivanolabs/ScrivanoFlatpak/releases/download/0.18.12/Scrivano_flatpak_files_0.18.12.tar.gz
+      sha256: d866ef7fc9f6d7006a27a788ddc86fc6f7b2fe20670e156565abaf5c3b41b02b
